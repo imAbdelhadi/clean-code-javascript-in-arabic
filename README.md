@@ -2163,7 +2163,7 @@ const actions = function () {
 هذا الدليل متوفر أيضًا بلغات أخرى:
 
 - ![am](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/4/Armenia.png) **Armenian**: [hanumanum/clean-code-javascript/](https://github.com/hanumanum/clean-code-javascript)
-- ![ar]() **Arabic**: [abdelhadi blog](https://blog.abdelhadi.org/)
+- ![ar](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Saudi-Arabia.png) **Arabic - العربية**: [imAbdelhadi/clean-code-javascript-in-arabic](https://github.com/imAbdelhadi/clean-code-javascript-in-arabic/)
 - ![bd](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Bangladesh.png) **Bangla(বাংলা)**: [InsomniacSabbir/clean-code-javascript/](https://github.com/InsomniacSabbir/clean-code-javascript/)
 - ![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png) **Brazilian Portuguese**: [fesnt/clean-code-javascript](https://github.com/fesnt/clean-code-javascript)
 - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Simplified Chinese**:
