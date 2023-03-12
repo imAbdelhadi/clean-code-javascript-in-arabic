@@ -2125,7 +2125,7 @@ function combine(a, b) {
 عادة ما يضفن ضوضاء لا أكثر. دع الدوال وأسماء المتغيرات جنبًا إلى جنب مع المسافة البادئة المناسبة وسيعطي التنسيق البنية المرئية للكود.
 
 **خطأ:**
-
+<div dir="rtl">
 ```javascript
 ////////////////////////////////////////////////////////////////////////////////
 // إنشاء نموذج Scope
@@ -2142,7 +2142,7 @@ const actions = function () {
 	// ...
 };
 ```
-
+</div>
 **صواب:**
 
 ```javascript
@@ -2162,7 +2162,7 @@ const actions = function () {
 
 هذا الدليل متوفر أيضًا بلغات أخرى:
 
-- ![am](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/4/Armenia.png) **Armenian**: [hanumanum/clean-code-javascript/](https://github.com/hanumanum/clean-code-javascript)
+- ![am](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/flat/24/Armenia.png) **Armenian**: [hanumanum/clean-code-javascript/](https://github.com/hanumanum/clean-code-javascript)
 - ![ar](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Saudi-Arabia.png) **Arabic - العربية**: [imAbdelhadi/clean-code-javascript-in-arabic](https://github.com/imAbdelhadi/clean-code-javascript-in-arabic/)
 - ![bd](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Bangladesh.png) **Bangla(বাংলা)**: [InsomniacSabbir/clean-code-javascript/](https://github.com/InsomniacSabbir/clean-code-javascript/)
 - ![br](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Brazil.png) **Brazilian Portuguese**: [fesnt/clean-code-javascript](https://github.com/fesnt/clean-code-javascript)
@@ -2190,7 +2190,7 @@ const actions = function () {
 
 **[⬆ العودة إلى الأعلى](#table-of-contents)**
 
-ترجمة -وبتصرف- لدليل [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+ترجمه إلى العربية واثق الشويطر وعبدالهادي الأندلسي -وبتصرف- لدليل [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 
 شكر وامتنان لكل من راجع الترجمة (القائمة أبجدية):
 - [عبد العزيز مخناش](https://twitter.com/Abdelaziz18003)
