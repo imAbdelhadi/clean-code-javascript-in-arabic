@@ -12,7 +12,7 @@
 3. [الدوال](#functions)
 4. [الكائنات وهياكل البيانات](#objects-and-data-structures)
 5. [الأصناف](#classes)
-6. [مبادئ SOLID](#solid)
+6. [مبادئ SOLID](#مبادئ-solid)
 7. [الاختبار](#testing)
 8. [التزامن](#concurrency)
 9. [التعامل مع الأخطاء](#error-handling)
