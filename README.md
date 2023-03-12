@@ -64,7 +64,7 @@ getCustomerRecord();
 getUser();
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### استخدم أسماء قابلة للبحث
 
@@ -85,7 +85,7 @@ const MILLISECONDS_PER_DAY = 60 * 60 * 24 * 1000; //86400000;
 setTimeout(blastOff, MILLISECONDS_PER_DAY);
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### استخدم متغيرات توضيحية
 
@@ -109,7 +109,7 @@ const [_, city, zipCode] = address.match(cityZipCodeRegex) || [];
 saveCityZipCode(city, zipCode);
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### تجنّب الإبهام
 
@@ -144,7 +144,7 @@ locations.forEach((location) => {
 });
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### لا داعي لتكرار الأسماء دون حاجة
 
@@ -178,7 +178,7 @@ function paintCar(car, color) {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### استخدم معاملات (parameters) افتراضية، وتجنب تعيين القيم الافتراضية من خلال الجمل الشرطية
 
@@ -202,7 +202,7 @@ function createMicrobrewery(name = "Hipster Brew Co.") {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ## **الدوال**
 
@@ -248,7 +248,7 @@ createMenu({
 });
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### يجب أن تؤدي الدوال شيئًا واحدًا
 
@@ -281,7 +281,7 @@ function isActiveClient(client) {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### يجب أن تعبّر أسماء الدوال عمّا تفعله
 
@@ -309,7 +309,7 @@ const date = new Date();
 addMonthToDate(1, date);
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### يجب أن تكون الدوال على مستوى واحد فقط من التجريد
 
@@ -379,7 +379,7 @@ function parse(tokens) {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### احذف الكود المكرّر
 
@@ -452,7 +452,7 @@ function showEmployeeList(employees) {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### عيّن الكائنات الافتراضية باستخدام Object.assign
 
@@ -505,7 +505,7 @@ function createMenu(config) {
 createMenu(menuConfig);
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### لا تستخدم [متغيرات الراية (flags)](https://stackoverflow.com/questions/17402125/what-is-a-flag-variable) معاملات للدوال
 
@@ -535,7 +535,7 @@ function createTempFile(name) {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### تجنب التأثيرات الجانبية (side effects) (الجزء الأول)
 
@@ -575,7 +575,7 @@ console.log(name); // 'Ryan McDermott';
 console.log(newName); // ['Ryan', 'McDermott'];
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### تجنب الآثار الجانبية (side effects) (الجزء الثاني)
 
@@ -610,7 +610,7 @@ const addItemToCart = (cart, item) => {
 };
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### لا تعدّل دوال المجال العام (global functions)
 
@@ -640,7 +640,7 @@ class SuperArray extends Array {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### فضّل البرمجة الدالّية (functional) على البرمجة الأمرية (imperative)
 
@@ -703,7 +703,7 @@ const totalOutput = programmerOutput.reduce(
 );
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### غلّف الجمل الشرطية (Encapsulate conditionals)
 
@@ -727,7 +727,7 @@ if (shouldShowSpinner(fsmInstance, listNodeInstance)) {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### تجنّب الجمل الشرطية المنفية
 
@@ -755,7 +755,7 @@ if (isDOMNodePresent(node)) {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### تجنّب الجمل الشرطية
 
@@ -810,7 +810,7 @@ class Cessna extends Airplane {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### تجنّب التحقق من أنواع البيانات (الجزء الأول)
 
@@ -836,7 +836,7 @@ function travelToTexas(vehicle) {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### تجنّب التحقق من أنواع البيانات (الجزء الثاني)
 
@@ -867,7 +867,7 @@ function combine(val1, val2) {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### لا تفرط في التحسين
 
@@ -891,7 +891,7 @@ for (let i = 0; i < list.length; i++) {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### احذف الكود الميت
 
@@ -923,7 +923,7 @@ const req = newRequestModule;
 inventoryTracker("apples", req, "www.inventory-awesome.io");
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ## **الكائنات وهياكل البيانات**
 
@@ -982,7 +982,7 @@ const account = makeBankAccount();
 account.setBalance(100);
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### دع الكائنات تمتلك عناصر خاصة
 
@@ -1024,7 +1024,7 @@ delete employee.name;
 console.log(`Employee name: ${employee.getName()}`); // اسم الموظف: John Doe
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ## **الأصناف (Classes)**
 
@@ -1108,7 +1108,7 @@ class Human extends Mammal {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### استخدام سَلسَلة الدوال
 
@@ -1184,7 +1184,7 @@ class Car {
 const car = new Car("Ford", "F-150", "red").setColor("pink").save();
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### فضّل أسلوب التركيب (composition) على التوريث (inheritance)
 
@@ -1247,7 +1247,7 @@ class Employee {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ## مبادئ **SOLID**
 
@@ -1302,7 +1302,7 @@ class UserSettings {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### مبدأ الفتح والإغلاق Open/Closed Principle (OCP)
 
@@ -1391,7 +1391,7 @@ class HttpRequester {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### مبدأ ليسكوف للاستبدال‎‏ ‎‎Liskov Substitution Principle ‎(LSP)‎‏‏‏
 
@@ -1501,7 +1501,7 @@ const shapes = [new Rectangle(4, 5), new Rectangle(4, 5), new Square(5)];
 renderLargeShapes(shapes);
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### مبدأ فصل الواجهات Interface Segregation Principle (ISP)
 
@@ -1571,7 +1571,7 @@ const $ = new DOMTraverser({
 });
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### مبدأ عكس التابعيّة Dependency Inversion Principle (DIP)
 
@@ -1668,7 +1668,7 @@ const inventoryTracker = new InventoryTracker(
 inventoryTracker.requestItems();
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ## **الاختبار**
 
@@ -1728,7 +1728,7 @@ describe("MomentJS", () => {
 });
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ## **التزامن**
 
@@ -1778,7 +1778,7 @@ get("https://en.wikipedia.org/wiki/Robert_Cecil_Martin")
 	});
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### استخدام Async/Await أنظف حتى من الوعود (Promises)
 
@@ -1821,7 +1821,7 @@ async function getCleanCodeArticle() {
 getCleanCodeArticle();
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ## **التعامل مع الأخطاء**
 
@@ -1895,7 +1895,7 @@ getdata()
 	});
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ## **التنسيق**
 
@@ -1939,7 +1939,7 @@ class Animal {}
 class Alpaca {}
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### يجب أن تكون الدوال المنادِية (callers) والمنادى عليها (callees) قريبة من بعضها
 
@@ -2025,7 +2025,7 @@ const review = new PerformanceReview(employee);
 review.perfReview();
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ## **التعليقات**
 
@@ -2072,7 +2072,7 @@ function hashIt(data) {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### لا تترك الأكواد المعلّقة في الكود
 
@@ -2093,7 +2093,7 @@ doStuff();
 doStuff();
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### لا تحتفظ بالتعليقات التي تشبه المذكرات اليومية
 
@@ -2120,7 +2120,7 @@ function combine(a, b) {
 }
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ### تجنب العلامات الموضعية
 
@@ -2157,7 +2157,7 @@ const actions = function () {
 };
 ```
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ## الترجمة
 
@@ -2189,7 +2189,7 @@ const actions = function () {
 - ![vi](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Vietnam.png) **Vietnamese**: [hienvd/clean-code-javascript/](https://github.com/hienvd/clean-code-javascript/)
 - ![ir](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Iran.png) **Persian**: [hamettio/clean-code-javascript](https://github.com/hamettio/clean-code-javascript)
 
-**[⬆ العودة إلى الأعلى](#table-of-contents)**
+**[⬆ العودة إلى الأعلى](#جدول-المحتويات)**
 
 ترجمه إلى العربية واثق الشويطر وعبدالهادي الأندلسي -وبتصرف- لدليل [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 
