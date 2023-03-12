@@ -2199,5 +2199,5 @@ const actions = function () {
 - [عبد العزيز مخناش](https://twitter.com/Abdelaziz18003)
 - [عيسى بوكرن](https://twitter.com/tutomena)
 - [معتز الخطيب](https://twitter.com/muotaz5)
-- [ناصر داخل](​​https://www.linkedin.com/in/naser-dakhel)
+- [ناصر داخل](https://www.linkedin.com/in/naser-dakhel)
 
