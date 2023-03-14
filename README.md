@@ -1,7 +1,7 @@
 <div dir="rtl">
 
 # الكود النظيف لجافاسكريبت
-
+![الكود النظيف لجافاسكريبت (Clean code in JavaScript)](https://blog.abdelhadi.org/content/images/size/w2000/2023/03/clean-code-feature.png)
 يمكنك قراءة المقالة بتنسيق أفضل على الرابط التالي:
 [مدونة عبدالهادي الأندلسي](https://blog.abdelhadi.org/clean-code-javascript-in-arabic/)
 
